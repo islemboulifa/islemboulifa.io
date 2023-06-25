@@ -1,0 +1,1 @@
+Use certain algorithm of a certain filter to apply to a picture(bmp) the desired filter. Included filters are : Blur, grey and sepia.
