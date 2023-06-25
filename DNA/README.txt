@@ -1,0 +1,2 @@
+Similar to how the FBI uses a database to track someone using their DNA. 
+Use DNA sequence of a person to determine the identitiy from a pre-existing database. Scan the STR in DNA sequence, count and then check for a matching profile. 
