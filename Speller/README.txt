@@ -1,0 +1,2 @@
+This program work as a spelling checker. 
+Takes dictionary chosen by user and based on the words of that dictionary it check for miss spelled words in a text that is also given by user and dispaly them at the end of program. 
