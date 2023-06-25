@@ -1,1 +1,0 @@
-This Program uses a list of teams in a tournament and tries to calculate the winning chance of each of the participating teams through a number of simulations (N).
