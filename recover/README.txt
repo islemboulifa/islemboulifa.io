@@ -1,0 +1,1 @@
+Recover a deleted jpeg file from sd card using a sequence of signatures; a pattern of bytes that distinguish them from other file formats. 
