@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <div class="finance">
+        <h1>Your Stock:</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Shares</th>
+                    <th>Current Price</th>
+                    <th>Total Worth</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stock in stocks %}
+                {% set stock_price = prices[loop.index0] %}
+                <tr>
+                    <td>{{ stock["symbol"] }}</td>
+                    <td>{{ stock["shares"] }}</td>
+                    <td>{{ stock_price|usd }}</td>
+                    <td>{{ (stock_price * stock["shares"])|usd }}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <th>Shares Owned</th>
+                    <td>{{ sum_of_shares }}</td>
+                    <th>Remaining Balence</th>
+                    <td>{{ cash|usd }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

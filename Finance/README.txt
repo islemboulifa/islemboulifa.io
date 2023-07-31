@@ -1,0 +1,1 @@
+Finance, a web app via which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, it will also let you buy (Virtually “buy”) and sell (Virtually “sell”) stocks by querying for stocks’ prices.
