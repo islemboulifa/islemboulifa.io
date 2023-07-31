@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&family=EB+Garamond&family=Lato:ital,wght@0,300;0,400;1,300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('wall2.jpg');
+    background-size:cover;
+}
+
+body.help{
+    background-image: url('wall2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.rank img {
+    border: 3px solid #6928a5a1; 
+    border-radius: 5px;
+}
+
+.rank img.logo {
+    border: transparent; 
+    padding-top: 5rem;
+    margin-bottom: -110px;
+}
+
+.rank {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rank h1{
+    color: rgb(226, 220, 162);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-top: 110px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.description img {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+.motive {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(226, 189, 252);
+}
+
+
+.description h2{
+    color: rgb(226, 220, 162);
+    padding: 1rem 25rem;
+}
+
+.books_table{
+    width: 80%;
+    table-layout: fixed;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+}
+
+table th {
+    color: rgb(204, 152, 198);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 29px;
+    text-align: center;
+} 
+
+table thead tr{
+    background-color: rgba(88, 55, 110, 0.349);
+}
+
+table tr {
+    color: rgba(44, 12, 63, 0.884);
+    background-color: rgba(192, 162, 212, 0.349);
+    font-size: 25px;
+}
+
+.lib {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #1b0325d0;
+}
+
+h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 125%;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    margin-top: -5%;
+}
+
+h2{
+    
+    margin: auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 200%;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+label{
+    font-weight: 1000;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+#message {
+    color: #1deb2ed5;;
+    font-weight: 1000;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-top: -5px;
+}
+
+select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    padding: 5px 10px 5px 8px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 1000;
+    font-size: 105%;
+    
+    background-color: #704494d5;
+    border: 1px solid #3e23557c; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); 
+}
+
+select.remove {
+    width: 400px;
+}
+
+.edit label.statue {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+.edit input.book{
+    background-color: #22063357;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+}
+
+.edit{
+    background-color:  rgba(148, 118, 140, 0.349);
+    margin: auto;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 500px;
+    gap: 15px;
+    padding: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: center;
+}
+
+.box{
+    background-color:  rgba(148, 118, 140, 0.349);
+    margin: auto;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 215px;
+    gap: 15px;
+    padding: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.notice {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 100%;
+    color: rgb(188, 179, 190);
+    font-weight: 600;
+    margin: auto;
+    margin-top: px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 300px;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+.alter {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+}
+
+.alter .login {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 70%;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    background-color: rgba(192, 162, 212, 0.411);
+    border-style:hidden;
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    margin-top: -3%;
+    justify-content: center;
+}
+
+.alter p {
+    margin-left: 8px;
+}
+
+.alter .register {
+    font-size: 70%;
+}
+
+.register {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 110%;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    background-color: rgba(192, 162, 212, 0.411);
+    border-style:hidden;
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.box input{
+    background-color: rgba(255, 255, 255, 0.349);
+    border-color: rgb(148, 118, 140);
+    border-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.login {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.login a {
+    display: block;
+}
+
+.login img{
+    width: 500px;
+}
+
+
+.description h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size:999%;
+    font-family: 'EB Garamond', serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.description p {
+    text-align: center;
+    font-size:450%;
+    font-family: 'EB Garamond', serif;
+    color: rgb(226, 189, 252);
+}
+
+li, a {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(226, 189, 252);
+    text-decoration: none;
+}
+
+.logo {    
+    width: 200px;
+    height: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 17px;
+    transition: all 0.3s ease 0;
+}
+
+.nav_links li:hover {
+    color: beige;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
